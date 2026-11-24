@@ -1,3 +1,10 @@
+# v0.1.3 - 25.11.2026 (d.m.y)
+## Changed
+- Timer island redesigned after the iPhone's Dynamic Island: a black capsule floating a few pixels under the top edge, with an orange progress ring that empties and the time left ("38s", "4:12", "1:05:00"). Reminders show a bell and stopwatches a chrono icon instead of the ring. With several timers, a small round bubble on the right shows the next one.
+- Click the capsule (or start a timer: it opens by itself for a few seconds) to get a large capsule with round pause or resume and stop buttons, the name and the time in big thin orange digits. It closes when the mouse has left it for 1.5 s, or when you click it again or elsewhere.
+- When a timer ends, the capsule shows its name in large letters with round "restart" and "close" buttons, and stays until you act or for 30 s. The sound is unchanged. For a reminder, the first button is "+5 min" instead of restart; "+5 min" for a timer stays in the right-click menu ("Restart" is greyed out for a reminder).
+- The capsule morphs smoothly between its sizes, and its content blurs and fades while it changes; it comes out of the top edge small and grows, and shrinks back up when it goes away. With animations off, everything is instant.
+
 # v0.1.2 - 24.11.2026 (d.m.y)
 ## Changed
 - Timer notch: smaller and calmer, closer to the notch of a Mac. At rest it is a thin notch (30 px) stuck to the top edge with a small icon (hourglass, clock or bell), the time left and a fine progress line; it only gets a slight lighter shade under the mouse, it no longer grows.
