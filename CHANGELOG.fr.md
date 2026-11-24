@@ -1,3 +1,11 @@
+# v0.1.2 - 24.11.2026 (j.m.a)
+## Modifié
+- Encoche des minuteurs : plus petite et plus sobre, plus proche de l'encoche d'un Mac. Au repos, c'est une fine encoche (30 px) collée au bord haut, avec une petite icône (sablier, horloge ou cloche), le temps restant et un filet de progression ; sous la souris elle s'éclaircit à peine, elle ne s'agrandit plus.
+- Un clic l'ouvre en panneau sous l'encoche (nom, temps en grand, barre de progression, boutons ronds pause ou reprise, +1 min et arrêter ; jusqu'à trois minuteurs en lignes compactes). Il se referme quand la souris l'a quitté depuis 1,5 s, au clic ailleurs, ou au clic sur l'encoche.
+- Le clic droit ouvre maintenant un menu Windows classique (pause ou reprise, +1 min, +5 min, recommencer, arrêter, tout arrêter, liste des minuteurs, masquer l'encoche), au thème clair ou sombre de Windows. Il ne prend le focus que le temps de son ouverture et le rend ensuite ; jamais pendant un jeu ou une application en plein écran.
+- À la fin d'un minuteur, l'encoche s'élargit en ce même panneau (« Terminé », le nom, OK et +5 min) avec une lueur très discrète, et se referme seule après 30 s.
+- Nouveaux sons de fin, doux et créés par Lumen : Carillon, Verre et Doux (ou Aucun), avec un bouton « Écouter » dans Réglages > Minuteurs. Le son est joué une fois, puis de nouveau 2 s plus tard si l'alerte est toujours ouverte (trois fois au plus). Le volume par défaut est plus bas (40 %) ; les volumes sont maintenant 20, 40, 60, 80 et 100 %.
+
 # v0.1.1 - 24.11.2026 (j.m.a)
 ## Corrigé
 - Raccourcis : Réglages > Raccourcis dit maintenant clairement quand un raccourci n'a pas pu être enregistré et pourquoi (déjà utilisé par une autre application, identique à un autre raccourci de Lumen…). Alt+Maj et Ctrl+Maj servent aussi à changer la disposition du clavier dans Windows quand vous en avez plusieurs : Lumen vous prévient quand vous en choisissez un, car il peut ne pas se déclencher (ou changer votre langue en même temps).
