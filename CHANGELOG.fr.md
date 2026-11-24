@@ -1,3 +1,10 @@
+# v0.1.3 - 25.11.2026 (j.m.a)
+## Modifié
+- Île des minuteurs refaite d'après la Dynamic Island de l'iPhone : une capsule noire qui flotte à quelques pixels sous le bord haut, avec un anneau de progression orange qui se vide et le temps restant (« 38s », « 4:12 », « 1:05:00 »). Un rappel montre une cloche et un chronomètre une icône de chrono à la place de l'anneau. Avec plusieurs minuteurs, une petite pastille ronde à droite montre le suivant.
+- Un clic sur la capsule (ou le démarrage d'un minuteur : elle s'ouvre seule quelques secondes) la fait passer en grande capsule avec les boutons ronds pause ou reprise et arrêter, le nom et le temps en grands chiffres orange fins. Elle se referme quand la souris l'a quittée depuis 1,5 s, ou au clic dessus ou ailleurs.
+- À la fin d'un minuteur, la capsule affiche son nom en grand avec les boutons ronds « recommencer » et « fermer », et reste jusqu'à une action ou 30 s. Le son ne change pas. Pour un rappel, le premier bouton est « +5 min » au lieu de recommencer ; « +5 min » d'un minuteur reste dans le menu du clic droit (« Recommencer » est grisé pour un rappel).
+- La capsule change de taille en douceur, et son contenu se floute et s'efface pendant le changement ; elle sort du bord haut en grandissant et remonte en rétrécissant. Avec les animations coupées, tout est instantané.
+
 # v0.1.2 - 24.11.2026 (j.m.a)
 ## Modifié
 - Encoche des minuteurs : plus petite et plus sobre, plus proche de l'encoche d'un Mac. Au repos, c'est une fine encoche (30 px) collée au bord haut, avec une petite icône (sablier, horloge ou cloche), le temps restant et un filet de progression ; sous la souris elle s'éclaircit à peine, elle ne s'agrandit plus.
